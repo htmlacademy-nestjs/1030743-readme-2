@@ -1,0 +1,43 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/user-e2e"
+    },
+    {
+      "path": "./apps/user"
+    },
+    {
+      "path": "./comment-e2e"
+    },
+    {
+      "path": "./comment"
+    },
+    {
+      "path": "./apps/comment-e2e"
+    },
+    {
+      "path": "./apps/comment"
+    },
+    {
+      "path": "./apps/media-e2e"
+    },
+    {
+      "path": "./apps/media"
+    },
+    {
+      "path": "./apps/post-e2e"
+    },
+    {
+      "path": "./apps/post"
+    },
+    {
+      "path": "./apps/like"
+    },
+    {
+      "path": "./apps/notify"
+    }
+  ]
+}
